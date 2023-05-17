@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  cursor:grab;
+  margin: 0;
+    padding: 0;
+}
+
+/* Стилі header */
+header {
+  background-color: #ffb742;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 253, 253);
+  border-bottom: 5px solid rgb(212, 0, 0);
+}
+
+/* Створіть дві колонки / блока, які плавають поруч одна з одною */
+nav {
+  float: left;
+  width: 10%;
+  height: 470px; /* лише для демонстрації, мають бути видалені */
+  background: #f18f4e;
+  padding: 30px;
+  border-bottom: 5px solid rgb(212, 0, 0);
+}
+
+/* Стиль списку в меню */
+nav ul {
+  list-style-type: none;
+  padding:0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 80%;
+  background-color: #ffffff;
+  height: 300px; /* лише для демонстрації, мають бути видалені */
+}
+
+/* Очистити float після стовпців */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Стиль footer */
+footer {
+  background-color: rgb(212, 0, 0);
+  padding: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* Адаптивний макет - дві колонки / блока вкладаються один в один, а не поруч, на маленьких екранах */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.buttons { 
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.button_header { color:rgb(212, 0, 0) ;
+    background-color:#ffffff;
+     }

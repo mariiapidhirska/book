@@ -1,0 +1,25 @@
+body { margin: 0;
+    padding: 0; 
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);}
+.imya {color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);}
+.body { color: black;
+    border-radius: 15px;
+    border-bottom: 5px solid rgb(121, 121, 121);}
+    /* Створіть дві колонки / блока, які плавають поруч одна з одною */
+nav {
+    float: left;
+    width: 10%;
+    height: 310px; /* лише для демонстрації, мають бути видалені */
+    background: #ffffff;
+    padding: 20px;
+    border-bottom: 5px solid rgb(121, 121, 121);
+  }
+  
+  /* Стиль списку в меню */
+  nav ul {
+    list-style-type: none;
+    padding:0;
+    
+  }

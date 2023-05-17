@@ -1,0 +1,30 @@
+body{  
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0) ;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border-top: 2px solid rgb(0, 0, 0);
+    height:auto;
+    background-color:rgb(173, 10, 10);
+    color:rgb(247, 239, 211) ;
+    padding: 10px;
+}
+.body{
+    border-top: 2px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0) ;
+    padding: 10px 20px;
+    height: 630px;
+    padding: 10px;
+    
+}
+.footer{ 
+    border-top: 2px solid rgb(0, 0, 0);
+    background-color:rgb(173, 10, 10);
+    color:rgb(244, 218, 218) ;
+    height: 60px;
+}
+.button_header { color:rgb(212, 0, 0) ;
+    background-color:#ffffff;
+     }

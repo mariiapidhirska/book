@@ -1,0 +1,27 @@
+body { background-color: rgb(255, 254, 254);
+    margin: 0;
+    padding: 0;}
+.body {
+    height: 100px;
+    display:flow-root;
+    background-color: rgb(255, 210, 47);
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(40, 167, 63);
+    font-size:large ; }
+
+  .button_header{ float: center;
+    width:auto;
+    height: 30px; /* лише для демонстрації, мають бути видалені */
+    background: #ffffff;
+    list-style-type: none;
+    padding: 2px;  }
+    
+.termin { color: rgb(12, 76, 30);
+    font-family: verdana;
+    font-size: 160%;
+    padding: 25px;}
+.header {color: black;
+        font-size: 150%; }
+.footer {background-color: rgb(255, 210, 47);
+            height: 100px; 
+            width:auto}
